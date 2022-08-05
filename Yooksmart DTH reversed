@@ -6,7 +6,7 @@ import groovy.json.JsonOutput
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "Yooksmart Window Shade Reversed", namespace: "avianwaves", author: "AvianWaves", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade-3") {
+	definition(name: "Yooksmart Window Shade Reversed", namespace: "Smartthings", author: "AvianWaves", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade-3") {
 		capability "Actuator"
 		capability "Battery"
 		capability "Configuration"
